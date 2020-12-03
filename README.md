@@ -1,7 +1,7 @@
-# Oka_R_PortfolioWebsite# FIP Portfolio 
+# Portfolio Website
 
 ### Installation
-Making own portfolio including SASS, AJAX, and so on
+Making own portfolio including SASS, AJAX, PHP, Vue and so on
 
 ### Contributing
 1. create a new repo on Github

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryoko Oka Portfolio</title>
+
+    <!-- link to master.css not js -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://fonts.google.com/?query=dancing">
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+
+        <!-- header -->
+        <header class="mainheader">
+            <h1 class="hidden">welcome to Ryoko's Website</h1>
+
+            <!-- Logo img -->
+            <div class="logoHeader"><img src="images/logo_circle.svg" alt="Header logo"></div>
+
+            <!-- navigation bar-->
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <h2 id="title">Ryoko Oka</h2>
+
+
+            <section class="soft-section">
+                <!-- user-template copies get rendered here -->
+        </section>
+
+        </main>
+
+        <!-- footer -->
+        <footer>
+
+        </footer>
+    </div>
+
+    <!-- template files here (these don't render - the contents are reusable and get cloned at runtime) -->
+    <template id="soft-template">
+        <div class="soft">
+            <h1 class="hidden"></h1>
+            <h2 class="name"></h2>
+            <p class="software1"></p>
+            <p class="software2"></p>
+            <p class="software3"></p>
+            <p class="software4"></p>
+            <p class="software5"></p>
+        </div>
+    </template>
+    <!-- end templates -->
+    
+
+    <!-- script -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
