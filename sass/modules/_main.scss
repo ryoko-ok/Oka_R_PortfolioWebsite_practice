@@ -1,8 +1,12 @@
-body {
-    background-color: $main-bg-color;
-    font-size: $main-font-size;
-	font-family: $main-font-face;
+* {
 	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:white;
+	color:  #1a1a1a;
+	font-family: 'Helvetica', sans-serif;
 }
 
 main {
@@ -75,7 +79,7 @@ a:hover, a:active {
 
 
 #title {
-	font-family: 'Dancing Script medium 600', cursive, sans-serif;
+	font-family: 'Dancing Script', cursive, sans-serif;
 	font-size: 80px;
 	color: #ffb3b3;
 	margin: 100px 40px;
