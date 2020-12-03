@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: #1a1a1a;
+  font-family: "Helvetica", sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+#mainNav {
+  flex: 0 1 auto;
+  margin-top: 50px;
+  height: 60px;
+  margin-left: auto;
+}
+
+.logoHeader {
+  width: 150px;
+  height: auto;
+  margin: 10px 0px 20px 20px;
+}
+
+#catchcopy {
+  font-size: 70px;
+  font-family: "Dancing Script", cursive;
+  margin: 100px 40px;
+  text-align: center;
+}
+
+#mainNav ul li a {
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#mainContact {
+  max-width: 980px;
+  padding: 20px 20px 0 20px;
+  flex-direction: row;
+}
+
+a:link, a:visited {
+  color: gray;
+  text-decoration: blink;
+  font-weight: bold;
+  padding: 5px;
+}
+
+a:hover, a:active {
+  color: #ffb3b3;
+  text-decoration: blink;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+  background-color: white;
+  text-align: center;
+}
+
+#title {
+  font-family: "Dancing Script", cursive, sans-serif;
+  font-size: 80px;
+  color: #ffb3b3;
+  margin: 100px 40px;
+  text-align: center;
+}
+
+#discription {
+  font-size: 10px;
+  line-height: 14px;
+  color: #808080;
+  margin-top: 20px;
+}
+
+.g-recaptcha {
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#mainNav {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+}
+#mainNav img {
+  width: 60px;
+}
+#mainNav ul {
+  list-style-type: none;
+}
+#mainNav ul li {
+  float: left;
+}
+#mainNav ul li a {
+  font-family: "";
+  display: block;
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#mainNav ul li a:hover {
+  border-radius: 10px;
+  color: #ffb3b3;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logoHeader {
+  width: 100px;
+  height: auto;
+  margin: 10px 0px 20px 20px;
+}
+
+.soft-section {
+  display: flex;
+}
+
+.soft {
+  flex: 1;
+}
+.soft .name, .soft .software1, .soft .software2, .soft .software3, .soft .software4, .soft .software5 {
+  margin: 15px;
+}
+
+label {
+  display: block;
+  margin: 1.5em 0 0.3em;
+  padding-left: 0.4em;
+}
+label:first-of-type {
+  margin-top: 0;
+}
+
+input[type=text], input[type=email], select[name=topic], textarea {
+  padding: 0.6em;
+  color: #333;
+  border-radius: 4px;
+  width: 250px;
+}
+
+textarea {
+  resize: none;
+  display: block;
+}
+
+.submit-wrapper {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #ffb3b3;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: white;
+}
+.submit-wrapper:hover {
+  background-color: gray;
+}
+.submit-wrapper span {
+  padding-right: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .fav-section {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  p {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  header img {
+    width: 7rem;
+  }
+
+  .playlist {
+    width: 20%;
+    flex-direction: row;
+    text-align: left;
+  }
+  .playlist video {
+    width: 100%;
+  }
+
+  .mainHeader {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #mainNav {
+    flex: 0 1 auto;
+    margin-top: 50px;
+    height: 60px;
+    margin-left: auto;
+  }
+
+  .logoHeader {
+    width: 150px;
+    height: auto;
+    margin: 10px 0px 20px 20px;
+  }
+
+  #catchcopy {
+    font-size: 70px;
+    margin: 100px 40px;
+    text-align: center;
+  }
+
+  #mainNav ul li a {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  #mainContact {
+    max-width: 980px;
+    padding: 20px 20px 0 20px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  .fav-section {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  header img {
+    width: 8rem;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */
