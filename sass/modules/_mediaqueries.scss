@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px) {
+    
+    .mainHeader {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #mainNav {
+        flex: 0 1 auto;
+        margin-top: 50px;
+        height: 60px;
+        margin-left: auto;
+    }
+    
+    .logoHeader {
+        width: 150px;
+        height: auto;
+        margin: 10px 0px 20px 20px;
+    }
+    
+    #catchcopy {
+        font-size: 70px;
+        margin: 100px 40px;
+        text-align: center;
+    }
+    
+    #mainNav ul li a {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    
+    #mainContact {
+        max-width: 980px;
+        padding: 20px 20px 0 20px;
+        flex-direction: row;
+    }
+}

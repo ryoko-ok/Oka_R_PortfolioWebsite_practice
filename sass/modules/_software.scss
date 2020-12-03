@@ -1,0 +1,8 @@
+.soft-section {
+    display: flex;
+}
+
+.soft { 
+    flex: 1;
+    .name, .software1, .software2, .software3, .software4, .software5 { margin: 15px; }
+}
