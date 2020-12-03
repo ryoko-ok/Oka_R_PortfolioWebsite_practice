@@ -1,0 +1,56 @@
+body {
+    font: $main-font-family;
+    font-size: $main-font-size;
+    background-color: $main-bg-color;
+    margin: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+a:link, a:visited { 
+	color: gray;
+ 	text-decoration: blink; 
+ 	font-weight: bold;
+ 	padding: 5px;
+}
+
+a:hover, a:active { 
+	color: #ffb3b3;
+	text-decoration: blink; 
+	font-weight: bold;
+	padding: 5px;
+}
+
+.container {
+	margin: 0 auto;
+    width: 1024px;
+    background-color: white;
+    text-align: center;
+}
+
+
+#title {
+	font-family: 'Dancing Script medium 600', cursive, sans-serif;
+	font-size: 80px;
+	color: #ffb3b3;
+	margin: 100px 40px;
+    text-align: center;
+}
+
+#discription {
+	font-size: 10px;
+	line-height: 14px;
+	color: #808080;
+	margin-top: 20px;
+}
+
+.g-recaptcha {
+	padding-top: 20px;
+}
+
